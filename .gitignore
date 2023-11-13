@@ -4,7 +4,9 @@
 # кроме следующих файлов
 !configuration.py
 !data.py
-!main.py
+!get_order_by_track_test.py
+!sender_stand_request.py
 !README.md
 !SQL_task1.sql
 !SQL_task2.sql
+!Automated_test_suсcess.PNG
