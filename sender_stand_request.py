@@ -6,7 +6,8 @@ import data
 # Функция создания заказа
 def create_order():
     # Отправляем запрос на создание заказа и возвращаем номер трека заказа
-    return requests.post(configuration.URL_SERVICE + configuration.CREATE_ORDER_URL, json=data.order_body).json()['track']
+    return requests.post(configuration.URL_SERVICE + configuration.CREATE_ORDER_URL, json=data.order_body).json()[
+        'track']
 
 
 # Функция получения заказа
